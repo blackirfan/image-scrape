@@ -1,0 +1,16 @@
+First open conda terminal
+
+###
+scrapy startproject book_to_scrape
+###
+cd book_to_scrape
+###
+scrapy genspider imagespider books.toscrape.com
+
+###
+for download image in website
+
+pip install Pillow
+###
+
+scrapy crawl downloader
